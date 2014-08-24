@@ -37,4 +37,18 @@ h1 {
 
 body {
     margin: 0;
+    overflow: hidden;
+}
+
+.byline {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(255,255,255, 0.75);
+}
+
+.byline a {
+    color: rgba(0, 0, 0, 0.55);
 }
