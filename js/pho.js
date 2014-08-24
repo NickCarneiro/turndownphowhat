@@ -22,7 +22,6 @@ $(function() {
 });
 
 function moveImageToRandomLocation() {
-    console.log(this.image);
     var randomX = ($(window).width() - APPROXIMATE_IMAGE_WIDTH) * Math.random();
     var randomY = ($(window).height() - APPROXIMATE_IMAGE_HEIGHT) * Math.random();
     randomX = Math.max(randomX, APPROXIMATE_IMAGE_WIDTH);
